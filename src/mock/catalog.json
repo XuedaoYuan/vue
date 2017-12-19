@@ -1,0 +1,59 @@
+{
+  "catalog": [
+    {
+      "path": "/order",
+      "label": "销售管理",
+      "icon": true,
+      "children": [
+        {
+          "path": "/order1",
+          "label": "销售管理1"
+        },
+        {
+          "path": "/order2",
+          "label": "销售管理2",
+          "children": [
+            {
+              "path": "/order2-1",
+              "label": "销售管理21"
+            },
+            {
+              "path": "/order2-2",
+              "label": "销售管理22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/purchase",
+      "icon": true,
+      "label": "采购管理",
+      "children": [
+        {
+          "path": "/TrackingTable",
+          "label": "在途跟踪表"
+        },{
+          "path": "/PurchaseReturn",
+          "label": "采购退货"
+        },{
+          "path": "/PurchaseInvoice",
+          "label": "采购发票"
+        },{
+          "path": "/PurchaseReceipt",
+          "label": "采购暂收(收货)单"
+        }
+      ]
+    },
+    {
+      "path": "/test",
+      "icon": true,
+      "label": "测试"
+    },
+    {
+      "path": "/commonTable",
+      "label": "公共组件测试",
+      "icon": true
+    }
+  ]
+}

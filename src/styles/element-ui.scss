@@ -1,0 +1,268 @@
+// 修改element默认样式
+
+$font-color: #272c27;
+$fontsize-table:12px;
+
+.el-submenu .el-menu-item {
+	min-width: 100px;
+}
+.info .el-form-item{
+    margin-bottom:-5px;
+  }
+.el-button--primary {
+    background-color:#2d96d3;
+    border-color:#2d96d3;
+}
+.el-button--info {
+    background-color:#cccccc;
+    border-color:#cccccc;
+}
+//table
+.el-table {
+  font-size: 12px;
+  color: #5a5e66;
+  thead {
+    color: #5a5e66;
+  }
+  td{
+    padding: 0;
+    height: 26px !important;}
+  th{
+    padding: 0;
+    height: 26px !important;
+    background-color:#eef1f6
+  }
+}
+.el-table__empty-block {
+  min-height: 48px;
+}
+//input 框
+.el-input__inner {
+  padding: 0 2px 0 6px;
+}
+.el-input__icon {
+  width: 16px;
+}
+.el-input--mini .el-input__inner{
+  height:24px;
+  border-radius: 0;
+  width: 100%;
+}
+.el-select {
+  width: 100%;
+}
+.el-input--mini .el-input__icon{
+  line-height:22px;
+}
+//input百分百
+.hundred-percent-input .el-input--mini .el-input__inner {
+  width: 99%;
+}
+.el-input--suffix .el-input__inner {
+  padding-right: 20px;
+}
+
+.el-table .el-input input {
+  width: 100%;
+}
+
+.el-range-editor--mini.el-input__inner{
+  height:24px;
+  border-radius: 0;
+  //padding:0 10px;
+}
+.el-form-item__label {
+  font-size: 12px;
+  padding: 0 4px 0 0;
+}
+
+//行高
+.el-col {
+  height: 26px !important;
+}
+.el-form-item__content {
+  // line-height: 30px;
+}
+.el-form-item__label {
+  line-height: 30px;
+
+}
+
+//多行文本
+.el-textarea__inner{
+  border-radius: 0;
+}
+
+//搜索icon
+.el-icon-search {
+  cursor: pointer;
+}
+
+//按钮
+.el-button--mini {
+  padding: 6px 8px;
+}
+.el-button--small, .el-button--small.is-round {
+  padding: 6px 8px;
+}
+
+//分页
+.el-pagination {
+  float: right;
+  font-weight: normal;
+  .el-select .el-input {
+    width: 83px;
+    margin: 0 5px;
+  }
+}
+.el-pagination__sizes .el-input .el-input__inner {
+    font-size: 13px;
+    padding-left: 8px;
+}
+.el-pager li {
+  min-width: 22px;
+}
+.el-pagination__jump {
+  margin-left: 0px;
+}
+.el-pagination__editor.el-input {
+  width: 40px;
+}
+.el-pagination__sizes {
+  margin: 0 -3px 0 0;
+}
+
+//tab栏
+.el-tabs__item {
+  font-size: 13px;
+}
+.el-tabs__header {
+  margin: 0 0 8px;
+}
+
+// 拖拽控件 small 样式
+.drag-small {
+  width: 920px;
+  height: 700px;
+  left: 20%;
+  top: 2%;
+  .el-dialog {
+    width: 100%;
+  }
+  .el-dialog__header {
+    cursor: move;
+    background-color: #25394c;
+    padding: 8px 20px 4px;
+    .el-dialog__title {
+      font-size: 16px;
+      color: #fff;
+      font-weight: 700;
+    }
+    .el-dialog__headerbtn {
+      top: 10px;
+      font-size: 24px;
+    }
+  }
+  .el-dialog__body {
+    padding-top: 6px;
+  }
+  .dialog-footer {
+    text-align:center;
+  }
+}
+.v-modal {
+  opacity: 0.1;
+}
+
+//日期格式
+.el-date-editor.el-input__inner {
+  width: 174px;
+  padding: 0px 2px 0px 6px;
+  //height: 22px;
+}
+.el-date-editor {
+  .el-range__icon {
+    display: none;
+  }
+  .el-range__close-icon {
+    width: 16px;
+  }
+}
+
+//公共选择
+.common-search-select {
+  width: calc(100% - 30px);
+  float: left;
+}
+.common-search-select .el-input--mini .el-input__inner {
+  width: 100%;
+}
+
+
+
+.el-form-item__content {
+  line-height: normal !important;
+  margin-top: 3px;
+}
+
+//时间控件
+.el-date-editor .el-range-separator {
+  padding: 0 3px;
+}
+
+.el-date-editor .el-range-input {
+  width: 40%;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+  width: 100%;
+}
+
+//查询框
+.el-table td div .searchDialogOpen {
+    box-sizing: content-box;
+}
+.searchDialogOpen {
+    background: #fff;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #d8dce5;
+    float: left;
+    width: 29px;
+    text-align: center;
+    border-left-width: 0;
+    color: #b4bccc;
+    cursor: pointer;
+}
+
+.elTabs .el-form{
+  margin-bottom:2px;
+}
+
+.drag-small .el-dialog__header .el-dialog__headerbtn {
+  top: 5px;
+}
+.dailog .el-dialog__footer{
+  text-align: center;
+}
+
+// 校验成功边框色
+.el-form-item.is-success .el-input__inner, .el-form-item.is-success .el-input__inner:focus, .el-form-item.is-success .el-textarea__inner, .el-form-item.is-success .el-textarea__inner:focus {
+  border-color: #d8dce5;
+}
+
+// 校验*bug修改
+.el-form-item.is-required .el-form-item__label:before {
+  content: ''
+}
+.el-form-item.is-required>.el-form-item__label:before {
+  content: '*';
+  color: #fa5555;
+  margin-right: 4px;
+}
+.el-form-item.is-error .el-dialog__wrapper .el-input__inner, .el-form-item.is-error .el-dialog__wrapper .el-input__inner:focus {
+  border-color: #d8dce5;
+}
+.el-checkbox__label{
+  font-size:12px;
+}
+
